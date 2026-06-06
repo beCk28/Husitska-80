@@ -1,0 +1,150 @@
+/*
+Theme Name: Husitská 80
+Theme URI: https://husitska80.cz
+Author: Husitská 80
+Description: Luxusní prezentační web pro multioborovou provozovnu – Oprava oděvů, Kadeřnictví Camelia, Nehtové studio Anna.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: husitska-80
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background-color: rgba(201, 162, 39, 0.35);
+  color: #fff;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f2d98a 0%, #c9a227 45%, #e8c04f 70%, #a8841f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gold-line {
+  background: linear-gradient(90deg, transparent, #c9a227, transparent);
+  height: 1px;
+}
+
+.hero-glow {
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(201, 162, 39, 0.12) 0%, transparent 70%);
+}
+
+.card-glow:hover {
+  box-shadow: 0 0 40px rgba(201, 162, 39, 0.08);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #c9a227, #e8c04f);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.table-luxury th {
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.15) 0%, rgba(201, 162, 39, 0.05) 100%);
+}
+
+.table-luxury tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table-luxury tbody tr:hover {
+  background-color: rgba(201, 162, 39, 0.04);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #d4a82a 0%, #c9a227 50%, #a8841f 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #e8c04f 0%, #d4a82a 50%, #c9a227 100%);
+  box-shadow: 0 4px 24px rgba(201, 162, 39, 0.35);
+  transform: translateY(-1px);
+}
+
+.input-luxury:focus {
+  border-color: #c9a227;
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile-menu {
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+#hero {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  min-height: 40vh;
+}
+
+
+.animate-fade-in {
+  max-width: 500px;
+}
+
+.transition-colors {
+  margin-top: 0px;
+}
+
+.blur-3xl:nth-of-type(1) {
+  width: 40rem;
+  height: 40rem;
+  opacity: 0.1;
+}
+
+.blur-3xl:nth-of-type(2) {
+  width: 35rem;
+  height: 35rem;
+  opacity: 0.1;
+}
