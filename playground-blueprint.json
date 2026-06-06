@@ -29,6 +29,10 @@
     {
       "step": "runPHP",
       "code": "<?php require('/wordpress/wp-load.php'); update_option('blogname', 'Husitská 80'); update_option('blogdescription', 'Oprava oděvů · Kadeřnictví Camelia · Nehtové studio Anna'); update_option('show_on_front', 'page'); $page_id = wp_insert_post(['post_title' => 'Úvod', 'post_status' => 'publish', 'post_type' => 'page', 'post_content' => '']); update_option('page_on_front', $page_id); ?>"
+    },
+    {
+      "step": "goTo",
+      "url": "/"
     }
   ]
 }
