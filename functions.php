@@ -112,3 +112,6 @@ function husitska_80_body_class($classes) {
     return $classes;
 }
 add_filter('body_class', 'husitska_80_body_class');
+
+// Skrýt WP admin bar na front-endu
+add_filter('show_admin_bar', '__return_false');
