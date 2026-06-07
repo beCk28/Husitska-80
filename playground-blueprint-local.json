@@ -8,19 +8,12 @@
     {
       "step": "defineWpConfigConsts",
       "consts": {
-        "WP_DEBUG": false
-      }
-    },
-    {
-      "step": "installTheme",
-      "themeZipFile": {
-        "resource": "url",
-        "url": "https://github.com/beCk28/Husitska-80/archive/refs/heads/main.zip"
+        "WP_DEBUG": true
       }
     },
     {
       "step": "activateTheme",
-      "themeFolderName": "Husitska-80-main"
+      "themeFolderName": "husitska-80"
     },
     {
       "step": "login",

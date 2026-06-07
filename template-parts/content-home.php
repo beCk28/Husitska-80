@@ -39,7 +39,7 @@
         <div class="reveal text-center mb-10 visible">
           <p class="text-gold-500 text-xs font-medium tracking-[0.25em] uppercase mb-2">O nás</p>
           <h2 class="text-2xl sm:text-3xl md:text-4xl font-light text-white mb-3">
-            Vítejte v <span class="gold-gradient-text font-medium">Husitské 80</span>
+            Vítejte v <span class="gold-gradient-text font-medium">Husitské 65</span>
           </h2>
           <div class="gold-line w-20 mx-auto"></div>
         </div>

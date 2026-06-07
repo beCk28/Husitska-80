@@ -21,7 +21,7 @@
         <span class="w-8 h-8 border border-gold-500/60 rounded-full flex items-center justify-center group-hover:border-gold-400 transition-colors">
           <span class="w-2 h-2 bg-gold-500 rounded-full"></span>
         </span>
-        <span class="text-sm md:text-base font-semibold tracking-widest uppercase gold-gradient-text">Husitská 80</span>
+        <span class="text-sm md:text-base font-semibold tracking-widest uppercase gold-gradient-text">Husitská 65</span>
       </a>
 
       <div class="hidden lg:flex items-center gap-8">
